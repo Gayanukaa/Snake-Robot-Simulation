@@ -15,5 +15,13 @@ desiredJointAngles = [0.1; -0.1; 0.1; -0.1; 0.1; -0.1; 0.1; -0.1; 0.1];  % Desir
 % Run the Simulink model
 simOut = sim('snake_robot_simulation');
 
-% Visualize and analyze results (add your visualization and analysis code)
+% Visualize and analyze results
+% Example: Extract joint angles and segment positions from simOut
+jointAngles = simOut.get('jointAngles');  % Modify as needed
+segmentPositions = simOut.get('segmentPositions');  % Modify as needed
+
+% Call the simulation function to generate graphs and analyze results
+simulateSnakeRobot(desiredJointAngles, segmentPositions);
+
+% Your additional visualization and analysis code goes here
 % ...
