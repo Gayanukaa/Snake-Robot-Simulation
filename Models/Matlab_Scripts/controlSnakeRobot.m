@@ -1,6 +1,3 @@
-% controlSnakeRobot.m
-% This script controls the motion of the snake robot.
-
 function [joint_torques] = controlSnakeRobot(joint_angles, joint_velocities)
 
 % Calculate the desired joint angles for the snake robot
