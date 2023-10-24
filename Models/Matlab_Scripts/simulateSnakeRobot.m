@@ -10,22 +10,17 @@ function simulateSnakeRobot(desiredJointAngles, segmentPositions)
     bodySegmentAngles = zeros(4, numel(time));
     snakePath = zeros(numel(time), 2);
     
-    % Initialize robot state
-    currentJointAngles = zeros(9, 1);
-    
     % Main simulation loop
+    currentJointAngles = zeros(9, 1);
     for i = 1:numel(time)
         % Simulate the snake's motion and update positions
-        % Example: Move each joint by a small increment (customize this)
+        % Example: Move each joint by a small increment based on desiredJointAngles (customize this)
         jointIncrement = 0.01;
         currentJointAngles = currentJointAngles + jointIncrement;
         
-        % Assume segment positions change based on kinematics
-        segmentPositions = kinematicModel(currentJointAngles);
-        
         % Calculate angles and positions for analysis
-        headTo1stBodyAngles(i) = angleBetweenHeadAnd1stBody(currentJointAngles);
-        tailTo4thBodyAngles(i) = angleBetweenTailAnd4thBody(currentJointAngles);
+        headTo1stBodyAngles(i) = angleBetweenHeadAnd1stBody(currentJointAngles, desiredJointAngles);
+        tailTo4thBodyAngles(i) = angleBetweenTailAnd4thBody(currentJointAngles, desiredJointAngles);
         bodySegmentAngles(:, i) = anglesBetweenAdjacentBodySegments(currentJointAngles);
         snakePath(i, :) = segmentPositions(1, :);
     end
@@ -57,22 +52,27 @@ function simulateSnakeRobot(desiredJointAngles, segmentPositions)
     plot(snakePath(:, 1), snakePath(:, 2));
     title('Snake Path');
 
+    % Visualize and analyze other variables
+    % ...
 end
 
-function angle = angleBetweenHeadAnd1stBody(jointAngles)
+% Modify angle calculation functions to accept desiredJointAngles
+% ...
+
+function angle = angleBetweenHeadAnd1stBody(currentJointAngles, desiredJointAngles)
     % Calculate the angle between the head and the 1st body segment
-    angle = jointAngles(1) - jointAngles(2);
+    angle = currentJointAngles(1) - currentJointAngles(2) - (desiredJointAngles(1) - desiredJointAngles(2));
 end
 
-function angle = angleBetweenTailAnd4thBody(jointAngles)
+function angle = angleBetweenTailAnd4thBody(currentJointAngles, desiredJointAngles)
     % Calculate the angle between the tail and the 4th body segment
-    angle = jointAngles(8) - jointAngles(9);
+    angle = currentJointAngles(8) - currentJointAngles(9) - (desiredJointAngles(8) - desiredJointAngles(9));
 end
 
-function angles = anglesBetweenAdjacentBodySegments(jointAngles)
+function angles = anglesBetweenAdjacentBodySegments(currentJointAngles)
     % Calculate angles between adjacent body segments
     angles = zeros(4, 1);
     for i = 1:4
-        angles(i) = jointAngles(2 * i) - jointAngles(2 * i + 1);
+        angles(i) = currentJointAngles(2 * i) - currentJointAngles(2 * i + 1);
     end
 end
