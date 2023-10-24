@@ -1,29 +1,19 @@
-% Snake Robot Simulation Main Script
+% snake_robot_main.m
 
-% Initialize simulation parameters
-initialJointAngles = [0, 0, 0, 0]; % Initial joint angles
-targetPosition = [2, 2]; % Desired end-effector position
+% Load SolidWorks components
+headModel = vrworld('head.wrl');
+bodySegmentModels = cell(4, 1);  % Array to hold 4 body segment models
+for i = 1:4
+    bodySegmentModels{i} = vrworld(['body_segment', num2str(i), '.wrl']);
+end
+tailModel = vrworld('tail.wrl');
 
-% Call Kinematic Model
-endEffectorPosition = kinematicModel(initialJointAngles);
+% Define simulation parameters
+initialJointAngles = zeros(9, 1);  % Initialize joint angles
+desiredJointAngles = [0.1; -0.1; 0.1; -0.1; 0.1; -0.1; 0.1; -0.1; 0.1];  % Desired joint angles for horizontal traversal
 
-% Call Control Algorithm
-desiredJointAngles = inverseKinematics(targetPosition);
+% Run the Simulink model
+simOut = sim('snake_robot_simulation');
 
-% Call Realism Simulation
-simulatedJointAngles = simulateSnakeRobot(initialJointAngles, desiredJointAngles);
-
-% Visualization
-% Plot the robot's joint angles over time
-figure;
-plot(0:0.01:5, simulatedJointAngles);
-xlabel('Time (s)');
-ylabel('Joint Angles');
-title('Snake Robot Joint Angles Over Time');
-
-% Analyze the simulation results (e.g., calculate tracking error)
-trackingError = norm(simulatedJointAngles(end, :) - desiredJointAngles);
-
-disp(['Tracking Error: ', num2str(trackingError)]);
-
-% You can add more analysis based on your project requirements
+% Visualize and analyze results (add your visualization and analysis code)
+% ...
