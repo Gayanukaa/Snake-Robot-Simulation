@@ -1,0 +1,1349 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="11/28/23||14:54:21" using="Simscape Multibody Link Version 7.4" from="SolidWorks 31.0.1"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="Assem9" uid="Assem9" version="608">
+<AssemblyFile name="Assem9.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="Head-1" uid="Head-1" grounded="true" entityUid="Head*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.0052617517889075316 0.0069856350282293533 -0.0019693826468815123</Translation>
+</Transform>
+</Instance>
+<Instance name="connector-1" uid="connector-1" entityUid="connector*:*Default">
+<Transform>
+<Rotation>1 -8.5442530727087616e-16 2.0100786660754067e-15 -2.0100786660754063e-15 1.6653345369377348e-16 1 -8.5442530727087823e-16 -1 1.6653345369377348e-16</Rotation>
+<Translation>-0.0052417015373340042 0.0062323117449374146 0.096225698299001239</Translation>
+</Transform>
+</Instance>
+<Instance name="driver-1" uid="driver-1" entityUid="driver*:*Default">
+<Transform>
+<Rotation>0 0 1 1 1.6653345369377942e-16 0 -1.6653345369377937e-16 1 0</Rotation>
+<Translation>-0.0052617517889075316 0.0062323117449374042 0.056695698299001236</Translation>
+</Transform>
+</Instance>
+<Instance name="Body-4" uid="Body-4" entityUid="Body*:*Default">
+<Transform>
+<Rotation>1.5135470610558371e-15 -0.98620910865586142 0.1655040603858749 1 1.4554360173871507e-15 -4.7239205769662101e-16 2.2499677964766952e-16 0.1655040603858749 0.98620910865586142</Rotation>
+<Translation>0.0075587476235532188 0.0074223117449374841 0.23419625105764608</Translation>
+</Transform>
+</Instance>
+<Instance name="connector-5" uid="connector-5" entityUid="connector*:*Default">
+<Transform>
+<Rotation>-2.3270358821201528e-15 -0.13201592910898338 -0.9912475949335221 -1 -5.8860832249173217e-16 2.4259746696852794e-15 -9.0372388404114579e-16 0.9912475949335221 -0.13201592910898338</Rotation>
+<Translation>-0.030897190898948396 0.0086123117449374113 0.54204505547139625</Translation>
+</Transform>
+</Instance>
+<Instance name="base-2" uid="base-2" entityUid="base*:*Default">
+<Transform>
+<Rotation>-0.98620910865586153 -0.16550406038587478 -1.4535522124425998e-15 1.3832505732504397e-15 5.4003447009823153e-16 -1 0.16550406038587478 -0.98620910865586153 -3.0365332699497081e-16</Rotation>
+<Translation>0.0075587476235532136 0.0074223117449374832 0.23419625105764602</Translation>
+</Transform>
+</Instance>
+<Instance name="base-4" uid="base-4" entityUid="base*:*Default">
+<Transform>
+<Rotation>-0.99750349546565076 -0.070617112188254977 -2.2016478299871776e-15 2.1971307111770646e-15 1.4164081882108664e-16 -1 0.070617112188254977 -0.99750349546565076 0</Rotation>
+<Translation>-0.0033682295509795297 0.0062523619965109333 0.11598946603370527</Translation>
+</Transform>
+</Instance>
+<Instance name="driver-5" uid="driver-5" entityUid="driver*:*Default">
+<Transform>
+<Rotation>-2.0122307025528354e-15 -0.1320159291089828 -0.99124759493352221 -1 -5.752331523038809e-16 2.1066085328041382e-15 -8.4830436147429742e-16 0.99124759493352221 -0.1320159291089828</Rotation>
+<Translation>-0.028259440261067227 0.0086123117449374079 0.52239126261645463</Translation>
+</Transform>
+</Instance>
+<Instance name="Body-1" uid="Body-1" entityUid="Body*:*Default">
+<Transform>
+<Rotation>2.147347022668157e-15 -0.99750349546565087 0.070617112188254852 1 2.1381475388103456e-15 -2.0586198490818938e-16 0 0.070617112188254852 0.99750349546565087</Rotation>
+<Translation>-0.0033682295509795714 0.0062523619965109889 0.11598946603370544</Translation>
+</Transform>
+</Instance>
+<Instance name="Body-6" uid="Body-6" entityUid="Body*:*Default">
+<Transform>
+<Rotation>-1.6782502212617777e-15 0.99124759493352199 -0.1320159291089838 -0.99999999999999989 -1.7297179780818437e-15 -2.7518318940992177e-16 -5.011250006417083e-16 0.13201592910898383 0.99124759493352188</Rotation>
+<Translation>-0.020411827704961621 0.0074223117449374234 0.4634671075943137</Translation>
+</Transform>
+</Instance>
+<Instance name="base-6" uid="base-6" entityUid="base*:*Default">
+<Transform>
+<Rotation>0.99124759493352221 0.13201592910898241 2.3027363809657707e-15 -2.4256514636212912e-15 7.7024643300331583e-16 1 0.13201592910898241 -0.99124759493352221 1.0837295558851889e-15</Rotation>
+<Translation>-0.020411827704961607 0.0074223117449374173 0.4634671075943137</Translation>
+</Transform>
+</Instance>
+<Instance name="connector-2" uid="connector-2" entityUid="connector*:*Default">
+<Transform>
+<Rotation>-1.5247837984244022e-15 0.070617112188253062 -0.99750349546565076 -0.99999999999999989 -3.8396310202386532e-16 1.5014177291413865e-15 -2.7697875217843051e-16 0.99750349546565087 0.070617112188253048</Rotation>
+<Translation>0.0022499024430688418 0.0074423619965110349 0.19506457796395263</Translation>
+</Transform>
+</Instance>
+<Instance name="driver-2" uid="driver-2" entityUid="driver*:*Default">
+<Transform>
+<Rotation>-1.5175441767499314e-15 0.070617112188252742 -0.99750349546565098 -1 -3.8882388422900262e-16 1.4938158750012829e-15 -2.8236422040540316e-16 0.99750349546565098 0.070617112188252742</Rotation>
+<Translation>0.00082956491234618479 0.0074423619965109386 0.1752854995397323</Translation>
+</Transform>
+</Instance>
+<Instance name="Body-5" uid="Body-5" entityUid="Body*:*Default">
+<Transform>
+<Rotation>-1.2584284006984834e-15 0.94239866561140473 -0.33449178622776926 -0.99999999999999989 -1.3847677064029343e-15 -1.3924060295358662e-16 -5.9441358204763223e-16 0.33449178622776932 0.94239866561140462</Rotation>
+<Translation>0.013936700756415149 0.0086323619965109587 0.35020329613451578</Translation>
+</Transform>
+</Instance>
+<Instance name="driver-3" uid="driver-3" entityUid="driver*:*Default">
+<Transform>
+<Rotation>1.3036709081358414e-15 0.16550406038587365 0.98620910865586164 1 -8.3418021522400577e-16 -1.181910291835946e-15 6.2706517420371673e-16 0.98620910865586164 -0.16550406038587365</Rotation>
+<Translation>0.017397043283302285 0.0086123117449374564 0.29282089610062617</Translation>
+</Transform>
+</Instance>
+<Instance name="driver-4" uid="driver-4" entityUid="driver*:*Default">
+<Transform>
+<Rotation>-1.0627925039295682e-15 -0.33449178622776704 -0.94239866561140551 -1 -1.8316436205502615e-16 1.1927642934822714e-15 -5.7158370946380644e-16 0.94239866561140551 -0.33449178622776704</Rotation>
+<Translation>-0.0059469750939397555 0.0074423619965109508 0.406223654064225</Translation>
+</Transform>
+</Instance>
+<Instance name="connector-3" uid="connector-3" entityUid="connector*:*Default">
+<Transform>
+<Rotation>0.98620910865586153 -0.16550406038587478 1.2734488964036575e-15 -1.1404876518516985e-15 8.9840445902852011e-16 1 -0.16550406038587478 -0.98620910865586153 6.9725932354955048e-16</Rotation>
+<Translation>0.023919645049623212 0.0086123117449374287 0.33180906056383946</Translation>
+</Transform>
+</Instance>
+<Instance name="connector-4" uid="connector-4" entityUid="connector*:*Default">
+<Transform>
+<Rotation>0.94239866561140495 0.33449178622776871 2.2513171569636635e-15 -2.4787187543618707e-15 2.5299302720486913e-16 1 0.33449178622776871 -0.94239866561140495 1.0675313549496304e-15</Rotation>
+<Translation>-0.019150540073426352 0.0074423619965109543 0.44348337996032378</Translation>
+</Transform>
+</Instance>
+<Instance name="base-7" uid="base-7" entityUid="base*:*Default">
+<Transform>
+<Rotation>0.9925527546884283 -0.1218155538525881 1.8666371699664683e-15 -1.8314247461875011e-15 4.1867270606090429e-16 0.99999999999999989 -0.12181555385258794 -0.9925527546884283 1.9858087758185078e-16</Rotation>
+<Translation>-0.029381631333655962 0.0086323619965109049 0.58126369878741557</Translation>
+</Transform>
+</Instance>
+<Instance name="Tail-1" uid="Tail-1" entityUid="Tail*:*Default">
+<Transform>
+<Rotation>0.9925527546884283 1.7837491435756706e-15 0.12181555385258833 -1.8314247461866922e-15 1 2.6176607017533802e-16 -0.12181555385258816 -4.7679050416815654e-16 0.9925527546884283</Rotation>
+<Translation>-0.029381631333655966 0.0086323619965109066 0.58126369878741568</Translation>
+</Transform>
+</Instance>
+<Instance name="base-5" uid="base-5" entityUid="base*:*Default">
+<Transform>
+<Rotation>0.94239866561140495 0.33449178622776871 1.496805657134598e-15 -1.6389842256071739e-15 1.4281633212725735e-16 1 0.33449178622776871 -0.94239866561140495 6.8281668204672242e-16</Rotation>
+<Translation>0.013936700756415142 0.0086323619965109552 0.35020329613451578</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="Concentric18">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Head-1</Uid>
+</InstancePath>
+<Position>0 0.023000000000000007 0.058665080945882749</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>driver-1</Uid>
+</InstancePath>
+<Position>0.011309999999999997 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric19">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Head-1</Uid>
+</InstancePath>
+<Position>0 0.023000000000000007 0.058665080945882749</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>driver-1</Uid>
+</InstancePath>
+<Position>-0.011310000000000001 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Parallel name="Parallel24">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Head-1</Uid>
+</InstancePath>
+<Position>0 0 0.050000000000000003</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>driver-1</Uid>
+</InstancePath>
+<Position>0 -0.0088000000000000023 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident21">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Head-1</Uid>
+</InstancePath>
+<Position>0.018000000000000002 -0.0070633232832919522 0.065000000000000002</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>driver-1</Uid>
+</InstancePath>
+<Position>-0.0063100000000000005 -0.0087999999999999953 -0.0063099999999999996</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Tangent name="Tangent2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Body-1</Uid>
+</InstancePath>
+<Position>0 0 0.049999999999999989</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>driver-2</Uid>
+</InstancePath>
+<Position>-0.0063100000000000022 -0.0088000000000000023 -0.0063099999999999996</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Tangent>
+<Concentric name="Concentric22">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Body-1</Uid>
+</InstancePath>
+<Position>0.012000000000000002 0 0.059444436812069235</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>driver-2</Uid>
+</InstancePath>
+<Position>-0.011309999999999997 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Parallel name="Parallel25">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Body-1</Uid>
+</InstancePath>
+<Position>0 0 0.049999999999999989</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>driver-2</Uid>
+</InstancePath>
+<Position>0 -0.00880000000000003 0</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident25">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>driver-2</Uid>
+</InstancePath>
+<Position>0.012000000000000005 0.016129999999999978 -0.0072200502515735211</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>connector-2</Uid>
+</InstancePath>
+<Position>0.0071999999999999963 0.019699999999999995 -0.0071999999999999998</Position>
+<Axis>-2.4093381610789046e-16 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel26">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>driver-2</Uid>
+</InstancePath>
+<Position>0.012000000000000007 0.016130000000000005 0.0072200502515735229</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>connector-2</Uid>
+</InstancePath>
+<Position>0.0071999999999999972 0.019699999999999995 0.0071999999999999981</Position>
+<Axis>2.4093381610789046e-16 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Concentric name="Concentric23">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>driver-2</Uid>
+</InstancePath>
+<Position>0 0.026530000000000026 -0.026200000000000008</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>connector-2</Uid>
+</InstancePath>
+<Position>0 0.0066999999999999837 0.012</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident27">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>connector-2</Uid>
+</InstancePath>
+<Position>-0.0071999999999999989 0.019699999999999995 0.0072000000000000015</Position>
+<Axis>-0.99999999999999989 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>base-2</Uid>
+</InstancePath>
+<Position>0.012000000000000011 0.016130000000000005 -0.0072200502515735211</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric24">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>connector-2</Uid>
+</InstancePath>
+<Position>0.011999999999999997 0.012999999999999984 0</Position>
+<Axis>-0.99999999999999989 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>base-2</Uid>
+</InstancePath>
+<Position>0 0.026530000000000026 -0.026200000000000001</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident30">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Body-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>base-4</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric32">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Body-1</Uid>
+</InstancePath>
+<Position>0 0.016000000000000007 -0.0079400000000000165</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>base-4</Uid>
+</InstancePath>
+<Position>-0.02 0.0079400000000000026 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric33">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Body-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>base-4</Uid>
+</InstancePath>
+<Position>0 0.033530000000000004 0</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric42">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>driver-1</Uid>
+</InstancePath>
+<Position>0 0.026530000000000005 -0.026200000000000001</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>connector-1</Uid>
+</InstancePath>
+<Position>0.012 0.013000000000000012 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric43">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>driver-1</Uid>
+</InstancePath>
+<Position>0 0.026530000000000005 -0.026200000000000001</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>connector-1</Uid>
+</InstancePath>
+<Position>0.012 0.013000000000000012 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident34">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>driver-1</Uid>
+</InstancePath>
+<Position>0.012000000000000007 0.016129999999999999 0.0072200502515735203</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>connector-1</Uid>
+</InstancePath>
+<Position>0.0071999999999999981 0.019700000000000009 0.0071999999999999981</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric44">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>connector-1</Uid>
+</InstancePath>
+<Position>0 0.0067000000000000115 0.012000000000000002</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>base-4</Uid>
+</InstancePath>
+<Position>0 0.026530000000000012 -0.026199999999999998</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric45">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>connector-1</Uid>
+</InstancePath>
+<Position>0 0.0067000000000000115 0.012000000000000002</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>base-4</Uid>
+</InstancePath>
+<Position>0 0.026530000000000012 -0.026199999999999998</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident35">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>connector-1</Uid>
+</InstancePath>
+<Position>0.0071999999999999981 0.019700000000000009 -0.0072000000000000015</Position>
+<Axis>-2.4093381610789016e-16 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>base-4</Uid>
+</InstancePath>
+<Position>0.012 0.016130000000000005 0.0072200502515735194</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel27">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>driver-1</Uid>
+</InstancePath>
+<Position>0 0.016129999999999999 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>connector-1</Uid>
+</InstancePath>
+<Position>0 0.019699999999999995 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Parallel name="Parallel28">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>driver-2</Uid>
+</InstancePath>
+<Position>0 0.016130000000000005 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>connector-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Concentric name="Concentric46">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>base-2</Uid>
+</InstancePath>
+<Position>-0.020000000000000004 0.0079400000000000026 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Body-4</Uid>
+</InstancePath>
+<Position>0 0.016 -0.0079400000000000026</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric47">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>base-2</Uid>
+</InstancePath>
+<Position>-0.020000000000000004 0.0079400000000000026 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Body-4</Uid>
+</InstancePath>
+<Position>0 0.016 -0.0079400000000000026</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric48">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>base-2</Uid>
+</InstancePath>
+<Position>0 0.033530000000000032 0</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Body-4</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric53">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Body-4</Uid>
+</InstancePath>
+<Position>0.012000000000000002 0 0.059444436812069207</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>driver-3</Uid>
+</InstancePath>
+<Position>0.011310000000000002 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric54">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Body-4</Uid>
+</InstancePath>
+<Position>0.012000000000000002 0 0.059444436812069207</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>driver-3</Uid>
+</InstancePath>
+<Position>-0.011310000000000001 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Tangent name="Tangent6">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Body-4</Uid>
+</InstancePath>
+<Position>0 0 0.049999999999999961</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>driver-3</Uid>
+</InstancePath>
+<Position>0.0063099999999999979 -0.0087999999999999745 -0.0063099999999999962</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Tangent>
+<Parallel name="Parallel33">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Body-4</Uid>
+</InstancePath>
+<Position>0 0 0.049999999999999961</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>driver-3</Uid>
+</InstancePath>
+<Position>0 -0.00880000000000003 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Concentric name="Concentric55">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>driver-3</Uid>
+</InstancePath>
+<Position>0 0.026529999999999998 -0.026200000000000001</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>connector-3</Uid>
+</InstancePath>
+<Position>0.012000000000000004 0.012999999999999956 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric56">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>driver-3</Uid>
+</InstancePath>
+<Position>0 0.026529999999999998 -0.026200000000000001</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>connector-3</Uid>
+</InstancePath>
+<Position>0.012000000000000004 0.012999999999999956 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident41">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>driver-3</Uid>
+</InstancePath>
+<Position>0.012000000000000005 0.016130000000000033 -0.0072200502515735246</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>connector-3</Uid>
+</InstancePath>
+<Position>-0.007200000000000005 0.01969999999999994 0.0071999999999999998</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel34">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>driver-3</Uid>
+</InstancePath>
+<Position>0 0.016129999999999978 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>connector-3</Uid>
+</InstancePath>
+<Position>0 0.019699999999999995 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Concentric name="Concentric57">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>connector-3</Uid>
+</InstancePath>
+<Position>0 0.0066999999999999837 0.011999999999999995</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>base-5</Uid>
+</InstancePath>
+<Position>0 0.026529999999999998 -0.026200000000000001</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric58">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>connector-3</Uid>
+</InstancePath>
+<Position>0 0.0066999999999999837 0.011999999999999995</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>base-5</Uid>
+</InstancePath>
+<Position>0 0.026529999999999998 -0.026200000000000001</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident43">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>connector-3</Uid>
+</InstancePath>
+<Position>0.0072000000000000015 0.019699999999999995 -0.0072000000000000015</Position>
+<Axis>-2.4093381610787409e-16 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>base-5</Uid>
+</InstancePath>
+<Position>0.012000000000000011 0.016129999999999978 -0.0072200502515735203</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric60">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>base-5</Uid>
+</InstancePath>
+<Position>-0.01999999999999999 0.0079400000000000026 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Body-5</Uid>
+</InstancePath>
+<Position>0 0.015999999999999986 -0.0079400000000000026</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric61">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>base-5</Uid>
+</InstancePath>
+<Position>-0.01999999999999999 0.0079400000000000026 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Body-5</Uid>
+</InstancePath>
+<Position>0 0.015999999999999986 -0.0079400000000000026</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric62">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>base-5</Uid>
+</InstancePath>
+<Position>0 0.033530000000000004 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Body-5</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric66">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Body-5</Uid>
+</InstancePath>
+<Position>0.011999999999999997 0 0.059444436812069235</Position>
+<Axis>-0.99999999999999989 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>driver-4</Uid>
+</InstancePath>
+<Position>-0.011310000000000001 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric67">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Body-5</Uid>
+</InstancePath>
+<Position>0.011999999999999997 0 0.059444436812069235</Position>
+<Axis>-0.99999999999999989 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>driver-4</Uid>
+</InstancePath>
+<Position>0.011310000000000001 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Parallel name="Parallel35">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Body-5</Uid>
+</InstancePath>
+<Position>0 0 0.049999999999999989</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>driver-4</Uid>
+</InstancePath>
+<Position>0 -0.0088000000000000855 0</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Tangent name="Tangent11">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Body-5</Uid>
+</InstancePath>
+<Position>0 0 0.049999999999999989</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>driver-4</Uid>
+</InstancePath>
+<Position>0.0063099999999999996 -0.00880000000000003 -0.00631000000000001</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Tangent>
+<Concentric name="Concentric68">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>driver-4</Uid>
+</InstancePath>
+<Position>0 0.026529999999999943 -0.026200000000000001</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>connector-4</Uid>
+</InstancePath>
+<Position>0.012000000000000011 0.013000000000000012 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric69">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>driver-4</Uid>
+</InstancePath>
+<Position>0 0.026529999999999943 -0.026200000000000001</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>connector-4</Uid>
+</InstancePath>
+<Position>0.012000000000000011 0.013000000000000012 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident46">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>driver-4</Uid>
+</InstancePath>
+<Position>0.012000000000000007 0.016129999999999978 -0.0072200502515735177</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>connector-4</Uid>
+</InstancePath>
+<Position>0.0072000000000000119 0.019699999999999995 0.0071999999999999989</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric70">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>connector-4</Uid>
+</InstancePath>
+<Position>0 0.0066999999999999837 0.012</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>base-6</Uid>
+</InstancePath>
+<Position>0 0.026529999999999998 -0.026199999999999998</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric71">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>connector-4</Uid>
+</InstancePath>
+<Position>0 0.0066999999999999837 0.012</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>base-6</Uid>
+</InstancePath>
+<Position>0 0.026529999999999998 -0.026199999999999998</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident47">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>connector-4</Uid>
+</InstancePath>
+<Position>0.0072000000000000119 0.019699999999999995 0.0071999999999999989</Position>
+<Axis>2.4093381610788928e-16 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>base-6</Uid>
+</InstancePath>
+<Position>0.012000000000000004 0.016129999999999978 0.0072200502515735229</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric72">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>base-6</Uid>
+</InstancePath>
+<Position>-0.019999999999999997 0.0079399999999999471 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Body-6</Uid>
+</InstancePath>
+<Position>0 0.016 -0.0079399999999999471</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric73">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>base-6</Uid>
+</InstancePath>
+<Position>-0.019999999999999997 0.0079399999999999471 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Body-6</Uid>
+</InstancePath>
+<Position>0 0.016 -0.0079399999999999471</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric74">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>base-6</Uid>
+</InstancePath>
+<Position>0 0.033529999999999893 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Body-6</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident48">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>base-6</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Body-6</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel36">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>driver-4</Uid>
+</InstancePath>
+<Position>0 0.016129999999999978 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>connector-4</Uid>
+</InstancePath>
+<Position>0 0.019699999999999995 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Concentric name="Concentric75">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Body-6</Uid>
+</InstancePath>
+<Position>0.011999999999999997 0 0.05944443681206929</Position>
+<Axis>-0.99999999999999989 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>driver-5</Uid>
+</InstancePath>
+<Position>-0.011310000000000004 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric76">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Body-6</Uid>
+</InstancePath>
+<Position>0.011999999999999997 0 0.05944443681206929</Position>
+<Axis>-0.99999999999999989 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>driver-5</Uid>
+</InstancePath>
+<Position>0.011309999999999997 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Parallel name="Parallel37">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Body-6</Uid>
+</InstancePath>
+<Position>0 0 0.049999999999999989</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>driver-5</Uid>
+</InstancePath>
+<Position>0 -0.008799999999999919 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Tangent name="Tangent13">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Body-6</Uid>
+</InstancePath>
+<Position>0 0 0.049999999999999989</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>driver-5</Uid>
+</InstancePath>
+<Position>-0.0063100000000000031 -0.00880000000000003 -0.0063099999999999962</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Tangent>
+<Concentric name="Concentric77">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>driver-5</Uid>
+</InstancePath>
+<Position>0 0.026530000000000054 -0.026200000000000001</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>connector-5</Uid>
+</InstancePath>
+<Position>0 0.0067000000000000393 0.012000000000000011</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric78">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>driver-5</Uid>
+</InstancePath>
+<Position>0 0.026530000000000054 -0.026200000000000001</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>connector-5</Uid>
+</InstancePath>
+<Position>0 0.0067000000000000393 0.012000000000000011</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident51">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>driver-5</Uid>
+</InstancePath>
+<Position>0.012000000000000004 0.016129999999999978 0.0072200502515735246</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>connector-5</Uid>
+</InstancePath>
+<Position>0.0071999999999999981 0.01969999999999994 0.0071999999999999981</Position>
+<Axis>2.4093381610788992e-16 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel38">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>driver-5</Uid>
+</InstancePath>
+<Position>0 0.016129999999999978 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>connector-5</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Concentric name="Concentric81">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>connector-5</Uid>
+</InstancePath>
+<Position>0.012 0.012999999999999901 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>base-7</Uid>
+</InstancePath>
+<Position>0 0.026530000000000054 -0.026199999999999994</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric82">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>connector-5</Uid>
+</InstancePath>
+<Position>0.012 0.012999999999999901 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>base-7</Uid>
+</InstancePath>
+<Position>0 0.026530000000000054 -0.026199999999999994</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident53">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>connector-5</Uid>
+</InstancePath>
+<Position>0.0071999999999999981 0.01969999999999994 0.0071999999999999981</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>base-7</Uid>
+</InstancePath>
+<Position>0.012000000000000011 0.016129999999999978 -0.0072200502515735185</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric83">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>base-7</Uid>
+</InstancePath>
+<Position>-0.01999999999999999 0.0079400000000000581 0</Position>
+<Axis>1 -1.6653345369377348e-16 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tail-1</Uid>
+</InstancePath>
+<Position>0.01999999999999999 0 -0.0079399999999999471</Position>
+<Axis>-1.0000000000000002 0 -1.6653345369377348e-16</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric84">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>base-7</Uid>
+</InstancePath>
+<Position>-0.01999999999999999 0.0079400000000000581 0</Position>
+<Axis>1 -1.6653345369377348e-16 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tail-1</Uid>
+</InstancePath>
+<Position>0.01999999999999999 0 -0.0079399999999999471</Position>
+<Axis>-1.0000000000000002 0 -1.6653345369377348e-16</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric85">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>base-7</Uid>
+</InstancePath>
+<Position>0 0.033529999999999949 0</Position>
+<Axis>1.6653345369377348e-16 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tail-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1.6653345369377348e-16 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="Body" uid="Body*:*Default" version="428">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Body.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.38006012902449132</Mass>
+<CenterOfMass>-1.5835723654381735e-10 4.9027635324233583e-12 0.025000068606426062</CenterOfMass>
+<Inertia>0.00030603631342311009 0.00030602533113797622 0.00046137580636075582 9.4008003599421624e-13 1.3646383293454901e-12 -8.9263340526860579e-13</Inertia>
+</MassProperties>
+<GeometryFile name="Body_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Head" uid="Head*:*Default" version="715">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Head.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.46511988679109462</Mass>
+<CenterOfMass>-1.8866655894405015e-06 -2.3607583026916953e-05 0.017137742457817313</CenterOfMass>
+<Inertia>0.00046342501261665599 0.00046336080553829564 0.00047683121399146766 -3.3364737196431855e-07 -2.305347087840931e-08 1.9740805968030027e-08</Inertia>
+</MassProperties>
+<GeometryFile name="Head_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Tail" uid="Tail*:*Default" version="190">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Tail.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.36646808463711783</Mass>
+<CenterOfMass>4.1450684707788132e-11 -7.5332408128092647e-11 0.025776580755498484</CenterOfMass>
+<Inertia>0.0002882686892056176 0.00028828665223167341 0.00038164992931516873 -7.0587445478137015e-13 5.5359606039473753e-14 -2.114993282492547e-13</Inertia>
+</MassProperties>
+<GeometryFile name="Tail_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="base" uid="base*:*Default" version="305">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="base.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.045814987617274823</Mass>
+<CenterOfMass>1.5662676607256431e-08 0.013235946656769148 2.7271430825938232e-08</CenterOfMass>
+<Inertia>5.9091918255687119e-06 4.9425576514471492e-06 5.390209519390627e-06 -2.1516690229051713e-11 1.3368597704280079e-11 -1.0621862514003551e-11</Inertia>
+</MassProperties>
+<GeometryFile name="base_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="connector" uid="connector*:*Default" version="145">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="connector.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0043409244767246913</Mass>
+<CenterOfMass>0 0.0098499999999999994 0</CenterOfMass>
+<Inertia>2.1351090753650386e-07 1.6698597166234499e-07 2.1351090753650388e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="connector_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="driver" uid="driver*:*Default" version="251">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="driver.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.062484185232878083</Mass>
+<CenterOfMass>2.4606221659295435e-09 0.010500129916043356 1.7373316444881859e-05</CenterOfMass>
+<Inertia>8.3988903436697299e-06 3.930108819357806e-06 7.4929889579129954e-06 1.2650118861504927e-08 1.5669829488579441e-11 -2.9222912373534484e-11</Inertia>
+</MassProperties>
+<GeometryFile name="driver_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
