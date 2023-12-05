@@ -23,7 +23,8 @@ clc;close all;
 % clear('li');
 li=webcam();
 im=snapshot(li);
-dete=vision.CascadeObjectDetector('Mouth','MergeThreshold',100);
+dete=vision.CascadeObjectDetector();
+dete.MergeThreshold(50)
 pp=imshow(im);
 while true
     im=snapshot(li);
