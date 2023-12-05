@@ -1,15 +1,31 @@
-%% Real-time face detection
-clc;close all;
-% clear('li');
-li=webcam();
-im=snapshot(li);
-dete=vision.CascadeObjectDetector();
-dete.MergeThreshold = 10;
-pp=imshow(im);
+%% Real-time face detection using webcam
+clc;
+clear;
+close all;
+
+% Create a webcam object
+webcamObj = webcam();
+
+initialSnapshot = snapshot(webcamObj);
+
+% Create a face detector object
+faceDetector = vision.CascadeObjectDetector();
+faceDetector.MergeThreshold = 10;
+
+imageHandle = imshow(initialSnapshot);
+
+% Continuously capture frames and perform face detection
 while true
-    im=snapshot(li);
-    im2=rgb2gray(im);
-    bb=step(dete,im2);
-    im2=insertObjectAnnotation(im,'rectangle',bb,'Face');
-    imshow(im2);
+    % Capture a frame from the webcam
+    currentFrame = snapshot(webcamObj);
+
+    grayFrame = rgb2gray(currentFrame);
+
+    % Detect faces in the grayscale frame
+    boundingBoxes = step(faceDetector, grayFrame);
+
+    % Annotate the original frame with rectangles around detected faces
+    annotatedFrame = insertObjectAnnotation(currentFrame, 'rectangle', boundingBoxes, 'Face');
+
+    set(imageHandle, 'CData', annotatedFrame);
 end
