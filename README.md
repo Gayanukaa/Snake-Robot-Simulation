@@ -7,7 +7,7 @@ This project explores the development of a snake robot prototype for potential a
 
 ## Project Philosophy🎓
 
-This project supports the fusion of robotics and computer vision to create efficient and adaptable solutions for emergency situations. We believe that snake robots, with their inherent flexibility and maneuverability, hold significant potential for navigating disaster-stricken environments and aiding search and rescue efforts.
+This project supports the fusion of robotics and computer vision to create efficient and adaptable solutions for emergencies. With their inherent flexibility and manoeuvrability, we believe that snake robots hold significant potential for navigating disaster-stricken environments and aiding search and rescue efforts.
 
 ## Tech Stack💻
 <p align="left">
@@ -21,7 +21,7 @@ This project supports the fusion of robotics and computer vision to create effic
 ## Summary🕐
 - Manual Motion Control: The current prototype utilizes user-controlled joint angles for movement, simulating the agility of natural snakes.
 - Image Classification Integration: The robot analyzes captured images and video in real-time to identify potential casualties, enhancing its situational awareness.
-- Solid foundation for future advancements: The project serves as a stepping stone for developing autonomous control algorithms and robust image classification systems.
+- Solid foundation for future advancements: The project is a stepping stone for developing autonomous control algorithms and robust image classification systems.
 
 ## Documentation📄
 The [project report](https://github.com/Gayanukaa/Snake-Robot-Simulation/blob/main/Documentation/Snake_Robot_for_Searching_Human_Casualties.pdf) provides detailed information on:
@@ -45,4 +45,4 @@ We welcome contributions from individuals and teams interested in further develo
 	•	Sharing insights and feedback through discussions and pull requests
  
 ## License📄
-This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/), allowing for open-source collaboration and modification. We encourage community involvement and hope this platform sparks further innovation in the field of disaster response robotics.
+This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/), allowing for open-source collaboration and modification. We encourage community involvement and hope this platform sparks further innovation in disaster response robotics.
