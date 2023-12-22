@@ -3,7 +3,7 @@
 ### Snake-Robot-Simulation: Bringing Agility and Vision to Disaster Response
 
 <div>
-  <img src="https://github.com/Gayanukaa/Snake-Robot-Simulation/blob/main/Documentation/Snake%20Robot%20Project%20Cover%20(1080%20x%20540%20px).png" width="1000" height="500"/>
+  <img src="https://github.com/Gayanukaa/Snake-Robot-Simulation/blob/main/Documentation/Snake%20Robot%20Project%20Cover%20(1080%20x%20540%20px).png" width="800" height="500"/>
 </div>
 
 ## Introduction👋
