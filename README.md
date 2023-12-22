@@ -2,6 +2,10 @@
 
 ### Snake-Robot-Simulation: Bringing Agility and Vision to Disaster Response
 
+<div>
+  <img src="https://github.com/Gayanukaa/Snake-Robot-Simulation/blob/main/Documentation/Snake%20Robot%20Project%20Cover.png" width="500" height="500"/>
+</div>
+
 ## Introduction👋
 This project explores the development of a snake robot prototype for potential applications in disaster response. The focus lies on its motion control and image classification capabilities, laying the groundwork for future advancements in autonomous navigation and casualty detection.
 
