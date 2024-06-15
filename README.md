@@ -23,12 +23,12 @@ This project supports the fusion of robotics and computer vision to create effic
 </p>
 
 ## Summary🕐
-- Manual Motion Control: The current prototype utilizes user-controlled joint angles for movement, simulating the agility of natural snakes.
-- Image Classification Integration: The robot analyzes captured images and video in real-time to identify potential casualties, enhancing its situational awareness.
-- Solid foundation for future advancements: The project is a stepping stone for developing autonomous control algorithms and robust image classification systems.
+- `Manual Motion Control`: The current prototype utilizes user-controlled joint angles for movement, simulating the agility of natural snakes.
+- `Image Classification Integration`: The robot analyzes captured images and video in real-time to identify potential casualties, enhancing its situational awareness using the Viola-Jones algorithm.
+- `Solid foundation for future advancements`: The project is a stepping stone for developing autonomous control algorithms and robust image classification systems.
 
 ## Documentation📄
-The [project report](https://github.com/Gayanukaa/Snake-Robot-Simulation/blob/main/Documentation/Snake_Robot_for_Searching_Human_Casualties.pdf) provides detailed information on:
+The [`project report`](https://github.com/Gayanukaa/Snake-Robot-Simulation/blob/main/Documentation/Snake_Robot_for_Searching_Human_Casualties.pdf) provides detailed information on:
 - Hardware design considerations and process (SolidWorks)
 - Software development process (MATLAB & Simulink)
 - Image classification algorithms employed
@@ -43,10 +43,10 @@ To explore the project, please follow these steps:
 
 ## Contributing🤝
 We welcome contributions from individuals and teams interested in further developing this project. Potential areas include:
-	•	Enhancing the motion control algorithms for autonomous navigation
-	•	Refining image classification algorithms for improved accuracy and robustness
-	•	Contributing to hardware design optimization and sensor integration
-	•	Sharing insights and feedback through discussions and pull requests
+ - Enhancing the motion control algorithms for autonomous navigation
+ - Refining image classification algorithms for improved accuracy and robustness
+ - Contributing to hardware design optimization and sensor integration
+ - Sharing insights and feedback through discussions and pull requests
  
 ## License📄
 This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/), allowing for open-source collaboration and modification. We encourage community involvement and hope this platform sparks further innovation in disaster response robotics.
